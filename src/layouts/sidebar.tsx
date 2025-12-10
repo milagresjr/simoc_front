@@ -135,9 +135,9 @@ export default function SideBar() {
 
             <SidebarItem
               title="Utilizadores"
-              href="/utilizadores"
+              href="/users"
               icon={Users}
-              active={pathname === "/utilizadores"}
+              active={pathname === "/users"}
               open={open}
             />
 

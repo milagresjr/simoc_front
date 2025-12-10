@@ -52,9 +52,8 @@ export default function RootLayout({
             {/* Conteúdo da página */}
             <main className="flex-1 pt-16 px-4 md:px-6 bg-[#f7f8f9] dark:bg-inherit overflow-auto">
               <div className="w-full max-w-full">
-                <QueryClientProvider client={queryClient}>
+                {/* <QueryClientProvider client={queryClient}> */}
                   {children}
-                </QueryClientProvider>
               </div>
             </main>
           </div>
